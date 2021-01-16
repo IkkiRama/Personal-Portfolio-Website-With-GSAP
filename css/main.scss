@@ -336,3 +336,20 @@ section {
     }
 
 }
+
+
+.circle {
+    animation: circle 1s infinite alternate-reverse;
+}
+
+
+@keyframes circle {
+    from {
+        transform: translate(262px, 798px);
+        z-index: 9;
+    }
+
+    to {
+        transform: translate(262px, 830px);
+    }
+}
